@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -71,6 +72,26 @@ p {
     margin: 0 auto;
 }
 
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+    display: flex;
+}
+.nav-bar nav a {
+    color: black;
+    padding: 10px 35px;
+    text-decoration: none;
+    align-self: center;
+}
+img.top-img {
+    margin: 20px 0;
+}
+
+img {padding-bottom: 25px;}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +133,37 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background-color:teal ;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold ;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color:cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color:crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color:forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color:darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color:hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color:indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +195,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-page p{
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.container .about-page, h2{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.about-page .top-content { 
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+
+.about-page .middle-content h2{
+    padding-bottom: 20px;
+}
+
+.about-page .middle-content{
+    border: 8px solid white;
+}
+
+.about-page .middle-content .text-container {
+    width: 370px;
+    padding: 0px;
+    margin: 0px 10px;
+    display: inline-block;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+.about-page .middle-content .text-container img{
+    max-width:100%;
+    height:auto;
+    margin: 30px 0 0px;
+}
+
+.about-page .middle-content .text-container button{
+    border: 1px solid black;
+    padding: 10px 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 20px;
+}
+.about-page .bottom-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
